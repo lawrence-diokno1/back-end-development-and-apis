@@ -1,0 +1,16 @@
+{
+  "name": "prime-number-checker",
+  "version": "1.0.0",
+  "description": "This is a prime number checker",
+  "keywords": [
+    "prime",
+    "number"
+  ],
+  "license": "MIT",
+  "author": "Lawrence Diokno",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  }
+}
