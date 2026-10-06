@@ -1,0 +1,20 @@
+{
+  "name": "build-a-personal-profile-app",
+  "version": "1.0.0",
+  "description": "perosnal profile app",
+  "keywords": [
+    "personal",
+    "profile",
+    "app"
+  ],
+  "license": "MIT",
+  "author": "Lawrence Diokno",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
