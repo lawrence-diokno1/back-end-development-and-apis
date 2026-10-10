@@ -1,3 +1,4 @@
+
 import { Router } from "express";
 
 const router = Router();
@@ -7,8 +8,7 @@ router.get("/", (req, res) => {
 });
 
 router.get("/crash", (req, res, next) => {
-    const err = new Error("Database connection failed.");
-    next(err);
+    next(new Error("Database connection failed."));
 });
 
 router.get("/bad-request", (req, res, next) => {
